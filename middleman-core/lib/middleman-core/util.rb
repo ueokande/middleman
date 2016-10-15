@@ -10,6 +10,7 @@ require 'middleman-core/util/files'
 require 'middleman-core/util/paths'
 require 'middleman-core/util/rack'
 require 'middleman-core/util/uri_templates'
+require 'middleman-core/util/gitignore'
 
 module Middleman
   module Util
