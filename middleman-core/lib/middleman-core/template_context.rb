@@ -158,7 +158,7 @@ module Middleman
     end
 
     def current_path
-      @locs[:current_path]
+      @locs['current_path']
     end
 
     # Get the resource object for the current path

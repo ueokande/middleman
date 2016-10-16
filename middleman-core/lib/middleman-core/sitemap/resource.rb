@@ -145,7 +145,7 @@ module Middleman
         md   = metadata
         opts = md[:options].deep_merge(opts)
         locs = md[:locals].deep_merge(locs)
-        locs[:current_path] ||= destination_path
+        locs['current_path'] ||= destination_path
 
         # Certain output file types don't use layouts
         opts[:layout] = false if !opts.key?(:layout) && !@app.config.extensions_with_layout.include?(ext)
